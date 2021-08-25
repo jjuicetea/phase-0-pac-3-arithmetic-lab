@@ -19,11 +19,19 @@ function divide(x, y) {
 }
 
 function increment(n) {
-    return n
+    return n + 1;
 
 }
 
-let n = 325;
-n++;
+function decrement(n) {
+    return n - 1;
+}
 
+function makeInt(n) {
+    return parseInt(n, 10);
+}
+
+function preserveDecimal(n) {
+    return parseFloat(n);
+}
 
